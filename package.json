@@ -1,0 +1,24 @@
+{
+  "name": "sqs-poll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsiathmakuri/sqs-poll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsiathmakuri/sqs-poll/issues"
+  },
+  "homepage": "https://github.com/vamsiathmakuri/sqs-poll#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.840.0",
+    "standard": "^16.0.3"
+  }
+}
