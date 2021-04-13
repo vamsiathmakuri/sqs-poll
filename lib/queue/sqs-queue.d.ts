@@ -1,4 +1,3 @@
-import { ReplaySubject } from "rxjs";
 import { SQSMessage } from "./sqs-message";
 
 interface PollOptions {
@@ -17,6 +16,6 @@ export declare class SQSQueue {
     startPoll(): Promise<void>;
     
     disable(): void;
-    
-    toObservable(): ReplaySubject<SQSMessage>;
+
+    register(handler: (message: SQSMessage) => any);
 }
