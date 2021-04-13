@@ -15,10 +15,16 @@
   "bugs": {
     "url": "https://github.com/vamsiathmakuri/sqs-poll/issues"
   },
+  "standard": {
+    "ignore": [
+      "*.d.ts"
+    ]
+  },
   "homepage": "https://github.com/vamsiathmakuri/sqs-poll#readme",
   "dependencies": {},
   "devDependencies": {
     "aws-sdk": "^2.840.0",
+    "mocha": "^8.3.2",
     "standard": "^16.0.3"
   }
 }
