@@ -24,9 +24,11 @@
     ]
   },
   "homepage": "https://github.com/vamsiathmakuri/sqs-poll#readme",
-  "dependencies": {},
+  "peerDependencies": {
+    "aws-sdk": "^2.885.0"
+  },
   "devDependencies": {
-    "aws-sdk": "^2.840.0",
+    "aws-sdk": "^2.885.0",
     "dotenv": "^8.2.0",
     "mocha": "^8.3.2",
     "standard": "^16.0.3"
