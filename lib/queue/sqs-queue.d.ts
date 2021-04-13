@@ -18,4 +18,6 @@ export declare class SQSQueue {
     disable(): void;
 
     register(handler: (message: SQSMessage) => any);
+
+    flushMessages(): Promise<Boolean>;
 }
